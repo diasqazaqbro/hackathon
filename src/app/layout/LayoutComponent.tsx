@@ -28,7 +28,7 @@ const LayoutComponent: React.FC<LayoutComponentProps> = ({ children }) => {
   console.log(user);
 
   useEffect(() => {
-    localStorage.setItem("token", token);
+    localStorage.setItem("token", token || '');
 
     fetch("https://pixel2protocolv1-production-c8ac.up.railway.app/profile", {
       method: "GET",

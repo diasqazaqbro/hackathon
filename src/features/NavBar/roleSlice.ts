@@ -3,6 +3,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 export interface IRole {
   userRole: "student" | "teacher";
   isAuth: boolean;
+  user?: string;
 }
 
 const initialState: IRole = {
