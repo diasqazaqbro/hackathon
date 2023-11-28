@@ -1,0 +1,14 @@
+.students {
+  .data {
+    margin: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .students {
+
+    .data {
+      margin: 40px 0;
+    }
+  }
+}
