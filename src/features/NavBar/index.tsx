@@ -27,11 +27,6 @@ const itemsForStudent: MenuItem[] = [
     "2",
     <SmileOutlined />
   ),
-  getItem(
-    <Link to={ROUTERS_CONSTANTS.PROFILE}>Профиль</Link>,
-    "3",
-    <SmileOutlined />
-  ),
 ];
 
 const itemsForTeacher: MenuItem[] = [
